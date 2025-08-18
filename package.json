@@ -1,0 +1,27 @@
+{
+  "name": "better-auth-cosmos",
+  "version": "0.0.9",
+  "description": "A custom better-auth adapter that integrates with Azure Cosmos DB.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@azure/cosmos": "^4.5.0",
+    "better-auth": "^1.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "keywords": [
+    "better-auth",
+    "cosmosdb",
+    "adapter"
+  ],
+  "author": "Kyle Smith",
+  "license": "MIT"
+}
